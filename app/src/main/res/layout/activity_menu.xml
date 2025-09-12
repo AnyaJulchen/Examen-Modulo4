@@ -17,37 +17,38 @@
         tools:layout_editor_absoluteY="0dp">
 
         <TextView
-            android:id="@+id/subhead"
+            android:id="@+id/subhead1"
             style="@style/TextAppearance.MaterialComponents.Subtitle2"
             android:layout_width="168dp"
             android:layout_height="28dp"
-            android:text="@string/imaginaciones_de_un_ni_o_enlutado"
+            android:text="@string/bouquet_of_winter_flowers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.932"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="11dp" />
 
         <ImageView
-            android:id="@+id/header_image"
+            android:id="@+id/header_image1"
             android:layout_width="102dp"
             android:layout_height="152dp"
             android:layout_marginBottom="24dp"
             android:contentDescription="@string/portada_del_libro"
-            android:src="@drawable/_15409256_512_k640677"
+            android:src="@drawable/_33694020_512_k600581"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="4dp" />
 
         <TextView
-            android:id="@+id/body"
+            android:id="@+id/body1"
             style="@style/TextAppearance.MaterialComponents.Body1"
-            android:layout_width="176dp"
-            android:layout_height="99dp"
-            android:text="@string/tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado"
-            tools:layout_editor_absoluteX="110dp"
-            tools:layout_editor_absoluteY="46dp" />
+            android:layout_width="169dp"
+            android:layout_height="100dp"
+            android:text="@string/en_un_templo_abandonado_en_medio_de_las_monta_as_la_ofrenda_de_un_ni_o_despertar_una_fuerza_antigua_dispuesta_a_destruirlo_todo_a_su_paso"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="49dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button1"
             android:layout_width="84dp"
             android:layout_height="30dp"
             android:background="#891547"
@@ -57,7 +58,7 @@
             tools:layout_editor_absoluteY="145dp" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
+            android:id="@+id/cardView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:layout_editor_absoluteY="190dp">
@@ -76,37 +77,38 @@
         tools:layout_editor_absoluteY="206dp">
 
         <TextView
-            android:id="@+id/subhead"
+            android:id="@+id/subhead2"
             style="@style/TextAppearance.MaterialComponents.Subtitle2"
             android:layout_width="156dp"
             android:layout_height="37dp"
-            android:text="@string/imaginaciones_de_un_ni_o_enlutado"
+            android:text="@string/la_perniciosa_sonrisa_de_jano"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.922"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="2dp" />
 
         <ImageView
-            android:id="@+id/header_image"
+            android:id="@+id/header_image2"
             android:layout_width="103dp"
             android:layout_height="172dp"
             android:layout_marginBottom="4dp"
             android:contentDescription="@string/portada_del_libro"
-            android:src="@drawable/_15409256_512_k640677"
+            android:src="@drawable/la_perniciosa_sonrisa_de_jano__3__by_recycled_stardust_ddt10yz"
             app:layout_constraintBottom_toBottomOf="parent"
             tools:layout_editor_absoluteX="4dp" />
 
         <TextView
-            android:id="@+id/body"
+            android:id="@+id/body2"
             style="@style/TextAppearance.MaterialComponents.Body1"
-            android:layout_width="162dp"
-            android:layout_height="97dp"
-            android:text="@string/tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado"
+            android:layout_width="161dp"
+            android:layout_height="85dp"
+            android:text="@string/perdido_en_una_tierra_desconocida_su_cuerpo_no_es_lo_nico_que_ofrece_a_sus_clientes"
+            android:textSize="12sp"
             tools:layout_editor_absoluteX="120dp"
-            tools:layout_editor_absoluteY="39dp" />
+            tools:layout_editor_absoluteY="50dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:layout_width="71dp"
             android:layout_height="30dp"
             android:background="#891547"
@@ -119,28 +121,28 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="288dp"
-        android:layout_height="207dp"
+        android:layout_width="304dp"
+        android:layout_height="222dp"
         android:padding="4dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="428dp">
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="427dp">
 
         <TextView
-            android:id="@+id/subhead"
+            android:id="@+id/subhead3"
             style="@style/TextAppearance.MaterialComponents.Subtitle2"
             android:layout_width="155dp"
             android:layout_height="35dp"
             android:text="@string/imaginaciones_de_un_ni_o_enlutado"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintHorizontal_bias="0.904"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="9dp" />
+            tools:layout_editor_absoluteY="16dp" />
 
         <ImageView
-            android:id="@+id/header_image"
-            android:layout_width="100dp"
-            android:layout_height="190dp"
+            android:id="@+id/header_image3"
+            android:layout_width="112dp"
+            android:layout_height="188dp"
             android:layout_marginBottom="4dp"
             android:contentDescription="@string/portada_del_libro"
             android:src="@drawable/_15409256_512_k640677"
@@ -148,16 +150,17 @@
             tools:layout_editor_absoluteX="4dp" />
 
         <TextView
-            android:id="@+id/body"
+            android:id="@+id/body3"
             style="@style/TextAppearance.MaterialComponents.Body1"
-            android:layout_width="163dp"
-            android:layout_height="104dp"
+            android:layout_width="161dp"
+            android:layout_height="75dp"
             android:text="@string/tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado"
-            tools:layout_editor_absoluteX="112dp"
-            tools:layout_editor_absoluteY="51dp" />
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="65dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button3"
             android:layout_width="78dp"
             android:layout_height="30dp"
             android:background="#891547"
@@ -167,10 +170,10 @@
             tools:layout_editor_absoluteY="161dp" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
+            android:id="@+id/cardView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="245dp">
+            tools:layout_editor_absoluteY="221dp">
 
         </androidx.cardview.widget.CardView>
 
@@ -178,11 +181,12 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/cardView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="411dp">
+        tools:layout_editor_absoluteY="411dp"
+        tools:ignore="MissingConstraints">
 
     </androidx.cardview.widget.CardView>
 
