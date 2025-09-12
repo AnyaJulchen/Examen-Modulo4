@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA9A9"
+    tools:context=".ViewLibro1">
+
+    <TextView
+        android:id="@+id/descripcionlarga"
+        android:layout_width="345dp"
+        android:layout_height="250dp"
+        android:textAlignment="center"
+        android:text="@string/DescripcionLargaBouquet"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="429dp"
+        android:textSize="13dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="188dp"
+        android:layout_height="309dp"
+        android:contentDescription="@string/en_un_templo_abandonado_en_medio_de_las_monta_as_la_ofrenda_de_un_ni_o_despertar_una_fuerza_antigua_dispuesta_a_destruirlo_todo_a_su_paso"
+        android:src="@drawable/_33694020_512_k600581"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bouquet_of_winter_flowers"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="50dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
