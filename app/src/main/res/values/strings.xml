@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Examen-Modulo4</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="wattpad_originals">Wattpad Originals</string>
+    <string name="tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado">Tienes cinco años. Eres un Iani, un mensajero de los muertos, y los fantasmas no te han abandonado.</string>
+    <string name="ver_m_s">Ver más.</string>
+    <string name="imaginaciones_de_un_ni_o_enlutado">Imaginaciones de un niño enlutado</string>
+    <string name="portada_del_libro">Portada del libro</string>
 </resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="#E1F8CE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="294dp"
+        android:layout_height="191dp"
+        android:padding="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/subhead"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="168dp"
+            android:layout_height="28dp"
+            android:text="@string/imaginaciones_de_un_ni_o_enlutado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.932"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="11dp" />
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="102dp"
+            android:layout_height="152dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="@string/portada_del_libro"
+            android:src="@drawable/_15409256_512_k640677"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <TextView
+            android:id="@+id/body"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="176dp"
+            android:layout_height="99dp"
+            android:text="@string/tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="84dp"
+            android:layout_height="30dp"
+            android:background="#891547"
+            android:text="@string/ver_m_s"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="145dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="190dp">
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="297dp"
+        android:layout_height="185dp"
+        android:padding="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="206dp">
+
+        <TextView
+            android:id="@+id/subhead"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="156dp"
+            android:layout_height="37dp"
+            android:text="@string/imaginaciones_de_un_ni_o_enlutado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="103dp"
+            android:layout_height="172dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@string/portada_del_libro"
+            android:src="@drawable/_15409256_512_k640677"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <TextView
+            android:id="@+id/body"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="162dp"
+            android:layout_height="97dp"
+            android:text="@string/tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="71dp"
+            android:layout_height="30dp"
+            android:background="#891547"
+            android:text="@string/ver_m_s"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="147dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="288dp"
+        android:layout_height="207dp"
+        android:padding="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="428dp">
+
+        <TextView
+            android:id="@+id/subhead"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="155dp"
+            android:layout_height="35dp"
+            android:text="@string/imaginaciones_de_un_ni_o_enlutado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="9dp" />
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="100dp"
+            android:layout_height="190dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@string/portada_del_libro"
+            android:src="@drawable/_15409256_512_k640677"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <TextView
+            android:id="@+id/body"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="163dp"
+            android:layout_height="104dp"
+            android:text="@string/tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="51dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="78dp"
+            android:layout_height="30dp"
+            android:background="#891547"
+            android:text="@string/ver_m_s"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="245dp">
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="411dp">
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
