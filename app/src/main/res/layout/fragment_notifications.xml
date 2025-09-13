@@ -8,15 +8,20 @@
 
     <TextView
         android:id="@+id/text_notifications"
-        android:layout_width="match_parent"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:text="@string/cr_ditos"
         android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="80sp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="343dp"
+        android:layout_height="78dp"
+        android:text="@string/nombre_autora"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="464dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
