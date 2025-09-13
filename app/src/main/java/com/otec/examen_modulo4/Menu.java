@@ -1,18 +1,21 @@
 package com.otec.examen_modulo4;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.fragment.NavHostFragment;
+// import androidx.navigation.ui.AppBarConfiguration; // Removed
 import androidx.navigation.ui.NavigationUI;
 
 import com.otec.examen_modulo4.databinding.ActivityMenuBinding;
 
 public class Menu extends AppCompatActivity {
+
+    private static final String TAG = "MenuActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,14 +24,19 @@ public class Menu extends AppCompatActivity {
         ActivityMenuBinding binding = ActivityMenuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        BottomNavigationView navView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_menu);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        // BottomNavigationView navView = binding.navView; // This line is not strictly needed if only used in setupWithNavController
+        
+        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.nav_host_fragment_activity_menu);
+        
+        if (navHostFragment == null) {
+            Log.e(TAG, "NavHostFragment not found with ID R.id.nav_host_fragment_activity_menu. Check your activity_menu.xml.");
+            return; // Exit onCreate if NavHostFragment is not found
+        }
+        
+        NavController navController = navHostFragment.getNavController();
+
+        // Removed: NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 

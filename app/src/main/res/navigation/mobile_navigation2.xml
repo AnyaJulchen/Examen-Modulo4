@@ -3,17 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation2"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.otec.examen_modulo4.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_navigation_home_to_navigation_dashboard"
-            app:destination="@id/navigation_dashboard" />
-    </fragment>
+    app:startDestination="@id/principal">
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -26,17 +16,29 @@
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_pop_exit_anim" />
         <action
-            android:id="@+id/action_navigation_dashboard_to_navigation_home"
-            app:destination="@id/navigation_home" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.otec.examen_modulo4.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_creditos" >
+            android:id="@+id/action_navigation_dashboard_to_viewLibro1"
+            app:destination="@id/viewLibro1" />
         <action
-            android:id="@+id/action_navigation_notifications_to_navigation_dashboard"
+            android:id="@+id/action_navigation_dashboard_to_libro2"
+            app:destination="@id/libro2" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewLibro1"
+        android:name="com.otec.examen_modulo4.ViewLibro1"
+        android:label="fragment_view_libro_3"
+        tools:layout="@layout/fragment_view_libro_3" />
+    <fragment
+        android:id="@+id/libro2"
+        android:name="com.otec.examen_modulo4.Libro2"
+        android:label="fragment_libro2"
+        tools:layout="@layout/fragment_libro2" />
+    <fragment
+        android:id="@+id/principal"
+        android:name="com.otec.examen_modulo4.Principal"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" >
+        <action
+            android:id="@+id/action_principal_to_navigation_dashboard"
             app:destination="@id/navigation_dashboard" />
     </fragment>
 </navigation>
