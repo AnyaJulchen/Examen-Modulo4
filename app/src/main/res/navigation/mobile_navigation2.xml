@@ -41,4 +41,9 @@
             android:id="@+id/action_principal_to_navigation_dashboard"
             app:destination="@id/navigation_dashboard" />
     </fragment>
+    <fragment
+        android:id="@+id/libro3"
+        android:name="com.otec.examen_modulo4.Libro3"
+        android:label="fragment_libro3"
+        tools:layout="@layout/fragment_libro3" />
 </navigation>
