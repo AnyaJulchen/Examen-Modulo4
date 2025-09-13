@@ -3,10 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="16dp"
-    android:background="#E1F8CE"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:padding="16dp"
+    android:background="#E1F8CE">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="294dp"
@@ -191,8 +192,6 @@
             tools:layout_editor_absoluteY="221dp">
 
         </androidx.cardview.widget.CardView>
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+

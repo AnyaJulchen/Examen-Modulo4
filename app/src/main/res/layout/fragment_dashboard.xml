@@ -9,12 +9,14 @@
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout7"
         android:layout_width="294dp"
         android:layout_height="191dp"
         android:padding="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="67dp">
 
         <TextView
             android:id="@+id/subhead1"
@@ -74,9 +76,11 @@
         android:layout_width="297dp"
         android:layout_height="185dp"
         android:padding="4dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="206dp">
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/subhead2"
@@ -92,13 +96,16 @@
 
         <ImageView
             android:id="@+id/header_image2"
-            android:layout_width="103dp"
+            android:layout_width="0dp"
             android:layout_height="172dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="47dp"
             android:layout_marginBottom="4dp"
             android:contentDescription="@string/portada_del_libro"
             android:src="@drawable/la_perniciosa_sonrisa_de_jano__3__by_recycled_stardust_ddt10yz"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:layout_editor_absoluteX="4dp" />
+            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/body2"
@@ -134,12 +141,14 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout8"
         android:layout_width="304dp"
         android:layout_height="222dp"
         android:padding="4dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="411dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/subhead3"
@@ -194,5 +203,15 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/libros"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

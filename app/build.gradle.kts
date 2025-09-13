@@ -7,6 +7,10 @@ plugins {
 android {
     namespace = "com.otec.examen_modulo4"
     compileSdk = 36
+    buildFeatures {
+        compose = true
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.otec.examen_modulo4"

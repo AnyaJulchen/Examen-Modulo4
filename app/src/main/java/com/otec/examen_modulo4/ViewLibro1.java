@@ -26,11 +26,5 @@ public class ViewLibro1 extends Fragment {
         return inflater.inflate(R.layout.fragment_view_libro1, container, false);
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(ViewLibro1ViewModel.class);
-        // TODO: Use the ViewModel
-    }
 
 }

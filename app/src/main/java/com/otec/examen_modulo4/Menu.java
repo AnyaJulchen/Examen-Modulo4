@@ -14,13 +14,11 @@ import com.otec.examen_modulo4.databinding.ActivityMenuBinding;
 
 public class Menu extends AppCompatActivity {
 
-    private ActivityMenuBinding binding;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMenuBinding.inflate(getLayoutInflater());
+        ActivityMenuBinding binding = ActivityMenuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         BottomNavigationView navView = findViewById(R.id.nav_view);
