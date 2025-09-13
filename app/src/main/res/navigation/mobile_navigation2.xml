@@ -11,15 +11,21 @@
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action
-            android:id="@+id/action_navigation_dashboard_to_navigation_notifications"
-            app:destination="@id/navigation_notifications"
+            android:id="@id/action_principal_to_navigation_dashboard"
+            app:destination="@id/action_principal_to_creditos"
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_pop_exit_anim" />
         <action
             android:id="@+id/action_navigation_dashboard_to_viewLibro1"
             app:destination="@id/viewLibro1" />
         <action
-            android:id="@+id/action_navigation_dashboard_to_libro2"
+            android:id="@+id/action_navigation_dashboard_to_libro3"
+            app:destination="@id/libro3" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_principal"
+            app:destination="@id/principal" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_libro22"
             app:destination="@id/libro2" />
     </fragment>
     <fragment
@@ -36,14 +42,29 @@
         android:id="@+id/principal"
         android:name="com.otec.examen_modulo4.Principal"
         android:label="fragment_principal"
-        tools:layout="@layout/fragment_principal" >
+        tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_principal_to_navigation_dashboard"
             app:destination="@id/navigation_dashboard" />
+        <action
+            android:id="@+id/action_principal_to_creditos"
+            app:destination="@id/creditos" />
     </fragment>
     <fragment
         android:id="@+id/libro3"
         android:name="com.otec.examen_modulo4.Libro3"
         android:label="fragment_libro3"
         tools:layout="@layout/fragment_libro3" />
+    <fragment
+        android:id="@+id/creditos"
+        android:name="com.otec.examen_modulo4.Creditos"
+        android:label="fragment_creditos"
+        tools:layout="@layout/fragment_creditos" >
+        <action
+            android:id="@+id/action_creditos_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+        <action
+            android:id="@+id/action_creditos_to_principal"
+            app:destination="@id/principal" />
+    </fragment>
 </navigation>
