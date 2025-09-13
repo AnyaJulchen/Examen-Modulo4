@@ -9,26 +9,27 @@
 
     <TextView
         android:id="@+id/descripcionlarga"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="334dp"
+        android:layout_height="169dp"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="52dp"
-        android:text="@string/DescripcionLargaBouquet"
+        android:text="@string/Perniciosa_Des_Larga"
         android:textAlignment="center"
-        android:textSize="13sp"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="188dp"
-        android:layout_height="0dp"
+        android:layout_width="251dp"
+        android:layout_height="350dp"
         android:layout_marginBottom="24dp"
-        android:contentDescription="@string/en_un_templo_abandonado_en_medio_de_las_monta_as_la_ofrenda_de_un_ni_o_despertar_una_fuerza_antigua_dispuesta_a_destruirlo_todo_a_su_paso"
-        android:src="@drawable/_33694020_512_k600581"
+        android:contentDescription="@string/Perniciosa_Des_Larga"
+        android:src="@drawable/la_perniciosa_sonrisa_de_jano__3__by_recycled_stardust_ddt10yz"
         app:layout_constraintBottom_toTopOf="@+id/descripcionlarga"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,15 +37,16 @@
 
     <TextView
         android:id="@+id/textView"
-        style="@style/TextAppearance.AppCompat.Headline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:layout_width="233dp"
+        android:layout_height="90dp"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="14dp"
-        android:text="@string/bouquet_of_winter_flowers"
+        android:text="@string/la_perniciosa_sonrisa_de_jano"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
