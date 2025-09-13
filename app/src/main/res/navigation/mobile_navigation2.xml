@@ -9,12 +9,20 @@
         android:id="@+id/viewLibro1"
         android:name="com.otec.examen_modulo4.ViewLibro1"
         android:label="fragment_view_libro_3"
-        tools:layout="@layout/fragment_view_libro_3" />
+        tools:layout="@layout/fragment_view_libro_3" >
+        <action
+            android:id="@+id/action_viewLibro1_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
     <fragment
         android:id="@+id/libro2"
         android:name="com.otec.examen_modulo4.View_libro_2"
         android:label="fragment_libro2"
-        tools:layout="@layout/fragment_libro2" />
+        tools:layout="@layout/fragment_libro2" >
+        <action
+            android:id="@+id/action_libro2_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
     <fragment
         android:id="@+id/principal"
         android:name="com.otec.examen_modulo4.Principal"
@@ -31,7 +39,11 @@
         android:id="@+id/libro3"
         android:name="com.otec.examen_modulo4.Libro3"
         android:label="fragment_libro3"
-        tools:layout="@layout/fragment_libro3" />
+        tools:layout="@layout/fragment_libro3" >
+        <action
+            android:id="@+id/action_libro3_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
     <fragment
         android:id="@+id/creditos"
         android:name="com.otec.examen_modulo4.Creditos"
@@ -44,5 +56,15 @@
     <fragment android:id="@+id/menu"
         android:name="com.otec.examen_modulo4.ui.dashboard.DashboardFragment"
         android:label="fragment_dashboard"
-        tools:layout="@layout/fragment_dashboard"/>
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_menu_to_viewLibro1"
+            app:destination="@id/viewLibro1" />
+        <action
+            android:id="@+id/action_menu_to_libro2"
+            app:destination="@id/libro2" />
+        <action
+            android:id="@+id/action_menu_to_libro3"
+            app:destination="@id/libro3" />
+    </fragment>
 </navigation>
