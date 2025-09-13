@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_view_libro_3" />
     <fragment
         android:id="@+id/libro2"
-        android:name="com.otec.examen_modulo4.Libro2"
+        android:name="com.otec.examen_modulo4.View_libro_2"
         android:label="fragment_libro2"
         tools:layout="@layout/fragment_libro2" />
     <fragment
@@ -21,11 +21,11 @@
         android:label="fragment_principal"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_principal_to_navigation_dashboard"
-            app:destination="@id/navigation2" />
-        <action
             android:id="@+id/action_principal_to_creditos"
             app:destination="@id/creditos" />
+        <action
+            android:id="@+id/action_principal_to_menu"
+            app:destination="@id/menu" />
     </fragment>
     <fragment
         android:id="@+id/libro3"
@@ -38,40 +38,11 @@
         android:label="fragment_creditos"
         tools:layout="@layout/fragment_creditos" >
         <action
-            android:id="@+id/action_creditos_to_navigation_dashboard"
-            app:destination="@id/navigation2" />
-        <action
             android:id="@+id/action_creditos_to_principal"
             app:destination="@id/principal" />
     </fragment>
-    <navigation android:id="@+id/navigation2"
-        app:startDestination="@id/navigation">
-        <navigation
-            android:id="@+id/navigation"
-            app:startDestination="@id/navigation_dashboard">
-            <fragment
-                android:id="@+id/navigation_dashboard"
-                android:name="com.otec.examen_modulo4.ui.dashboard.DashboardFragment"
-                android:label="@string/title_dashboard"
-                tools:layout="@layout/fragment_dashboard">
-                <action
-                    android:id="@id/action_principal_to_navigation_dashboard"
-                    app:destination="@id/action_principal_to_creditos"
-                    app:enterAnim="@anim/nav_default_enter_anim"
-                    app:exitAnim="@anim/nav_default_pop_exit_anim" />
-                <action
-                    android:id="@+id/action_navigation_dashboard_to_viewLibro1"
-                    app:destination="@id/viewLibro1" />
-                <action
-                    android:id="@+id/action_navigation_dashboard_to_libro3"
-                    app:destination="@id/libro3" />
-                <action
-                    android:id="@+id/action_navigation_dashboard_to_principal"
-                    app:destination="@id/principal" />
-                <action
-                    android:id="@+id/action_navigation_dashboard_to_libro22"
-                    app:destination="@id/libro2" />
-            </fragment>
-        </navigation>
-    </navigation>
+    <fragment android:id="@+id/menu"
+        android:name="com.otec.examen_modulo4.ui.dashboard.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard"/>
 </navigation>
