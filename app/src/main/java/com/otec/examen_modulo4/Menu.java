@@ -8,7 +8,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
-// import androidx.navigation.ui.AppBarConfiguration; // Removed
 import androidx.navigation.ui.NavigationUI;
 
 import com.otec.examen_modulo4.databinding.ActivityMainBinding;

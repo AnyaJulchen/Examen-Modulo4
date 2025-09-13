@@ -1,81 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="16dp"
-    android:background="#E1F8CE"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#E1F8CE"
+    android:padding="16dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout7"
-        android:layout_width="294dp"
-        android:layout_height="191dp"
+        android:layout_width="334dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="17dp"
         android:padding="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="67dp">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/subhead1"
             style="@style/TextAppearance.MaterialComponents.Subtitle2"
-            android:layout_width="168dp"
-            android:layout_height="28dp"
+            android:layout_width="190dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/bouquet_of_winter_flowers"
             android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/body1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.932"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="11dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/header_image1"
-            android:layout_width="102dp"
-            android:layout_height="152dp"
-            android:layout_marginBottom="24dp"
+            android:layout_width="112dp"
+            android:layout_height="174dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="28dp"
             android:contentDescription="@string/portada_del_libro"
             android:src="@drawable/_33694020_512_k600581"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:layout_editor_absoluteX="4dp" />
+            app:layout_constraintEnd_toStartOf="@+id/button1"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/body1"
             style="@style/TextAppearance.MaterialComponents.Body1"
-            android:layout_width="169dp"
-            android:layout_height="100dp"
+            android:layout_width="174dp"
+            android:layout_height="101dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="19dp"
             android:text="@string/en_un_templo_abandonado_en_medio_de_las_monta_as_la_ofrenda_de_un_ni_o_despertar_una_fuerza_antigua_dispuesta_a_destruirlo_todo_a_su_paso"
             android:textAlignment="center"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="110dp"
-            tools:layout_editor_absoluteY="49dp" />
+            app:layout_constraintBottom_toTopOf="@+id/button1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.714"
+            app:layout_constraintStart_toEndOf="@+id/header_image1"
+            app:layout_constraintTop_toBottomOf="@+id/subhead1" />
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="84dp"
-            android:layout_height="30dp"
+            android:layout_width="127dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="24dp"
             android:background="#891547"
             android:text="@string/ver_m_s"
             android:textColor="@color/white"
-            tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="145dp"/>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="190dp">
-
-        </androidx.cardview.widget.CardView>
-
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/header_image1"
+            app:layout_constraintTop_toBottomOf="@+id/body1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="297dp"
-        android:layout_height="185dp"
-        android:padding="4dp"
+        android:layout_width="356dp"
+        android:layout_height="173dp"
+        android:padding="2dp"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,20 +94,23 @@
         <TextView
             android:id="@+id/subhead2"
             style="@style/TextAppearance.MaterialComponents.Subtitle2"
-            android:layout_width="156dp"
-            android:layout_height="37dp"
+            android:layout_width="187dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="11dp"
             android:text="@string/la_perniciosa_sonrisa_de_jano"
             android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/body2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.922"
+            app:layout_constraintHorizontal_bias="0.923"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="2dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/header_image2"
-            android:layout_width="0dp"
-            android:layout_height="172dp"
-            android:layout_marginStart="8dp"
+            android:layout_width="93dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="12dp"
             android:layout_marginEnd="47dp"
             android:layout_marginBottom="4dp"
             android:contentDescription="@string/portada_del_libro"
@@ -110,30 +122,45 @@
         <TextView
             android:id="@+id/body2"
             style="@style/TextAppearance.MaterialComponents.Body1"
-            android:layout_width="141dp"
-            android:layout_height="83dp"
+            android:layout_width="177dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="13dp"
             android:text="@string/perdido_en_una_tierra_desconocida_su_cuerpo_no_es_lo_nico_que_ofrece_a_sus_clientes"
             android:textAlignment="center"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="126dp"
-            tools:layout_editor_absoluteY="51dp" />
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="@+id/subhead2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/subhead2"
+            app:layout_constraintTop_toBottomOf="@+id/subhead2" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="80dp"
-            android:layout_height="30dp"
+            android:layout_width="119dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
             android:background="#891547"
             android:text="@string/ver_m_s"
             android:textColor="@color/white"
-            tools:layout_editor_absoluteX="154dp"
-            tools:layout_editor_absoluteY="146dp" />
+            app:layout_constraintBottom_toTopOf="@+id/cardView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/header_image2"
+            app:layout_constraintTop_toBottomOf="@+id/body2" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView3"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="184dp">
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            tools:ignore="MissingConstraints">
 
         </androidx.cardview.widget.CardView>
 
@@ -142,8 +169,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout8"
-        android:layout_width="304dp"
-        android:layout_height="222dp"
+        android:layout_width="355dp"
+        android:layout_height="193dp"
+        android:layout_marginBottom="20dp"
         android:padding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -153,51 +181,72 @@
         <TextView
             android:id="@+id/subhead3"
             style="@style/TextAppearance.MaterialComponents.Subtitle2"
-            android:layout_width="155dp"
+            android:layout_width="145dp"
             android:layout_height="35dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginBottom="13dp"
             android:text="@string/imaginaciones_de_un_ni_o_enlutado"
             android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/body3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.904"
+            app:layout_constraintHorizontal_bias="0.846"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/header_image3"
-            android:layout_width="112dp"
+            android:layout_width="0dp"
             android:layout_height="188dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="58dp"
             android:layout_marginBottom="4dp"
             android:contentDescription="@string/portada_del_libro"
             android:src="@drawable/_15409256_512_k640677"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:layout_editor_absoluteX="4dp" />
+            app:layout_constraintEnd_toStartOf="@+id/button3"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/body3"
             style="@style/TextAppearance.MaterialComponents.Body1"
-            android:layout_width="160dp"
-            android:layout_height="75dp"
+            android:layout_width="188dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="22dp"
             android:text="@string/tienes_cinco_a_os_eres_un_iani_un_mensajero_de_los_muertos_y_los_fantasmas_no_te_han_abandonado"
             android:textAlignment="center"
             android:textSize="12sp"
-            tools:layout_editor_absoluteX="128dp"
-            tools:layout_editor_absoluteY="65dp" />
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/header_image3"
+            app:layout_constraintTop_toBottomOf="@+id/subhead3" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="78dp"
-            android:layout_height="30dp"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="29dp"
             android:background="#891547"
             android:text="@string/ver_m_s"
             android:textColor="@color/white"
-            tools:layout_editor_absoluteX="174dp"
-            tools:layout_editor_absoluteY="162dp" />
+            app:layout_constraintBottom_toTopOf="@+id/cardView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/header_image3"
+            app:layout_constraintTop_toBottomOf="@+id/body3" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteY="221dp">
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3">
 
         </androidx.cardview.widget.CardView>
 
@@ -213,5 +262,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="424dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
