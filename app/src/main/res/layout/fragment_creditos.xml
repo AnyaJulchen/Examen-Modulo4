@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,6 +12,7 @@
         android:text="@string/cr_ditos"
         android:textAlignment="center"
         android:textSize="80sp"
+        tools:ignore="TextSizeCheck"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="358dp" />
 
@@ -21,7 +21,8 @@
         android:layout_width="343dp"
         android:layout_height="78dp"
         android:text="@string/nombre_autora"
-        android:textSize="40dp"
+        android:textSize="40sp"
+        tools:ignore="TextSizeCheck"
         tools:layout_editor_absoluteX="52dp"
         tools:layout_editor_absoluteY="464dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
