@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFA9A9"
-    tools:context=".Libro2">
+    tools:context=".Libro1">
 
     <TextView
         android:id="@+id/descripcionlarga"
@@ -15,7 +15,7 @@
         android:layout_marginBottom="52dp"
         android:text="@string/Perniciosa_Des_Larga"
         android:textAlignment="center"
-        android:textSize="12sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"

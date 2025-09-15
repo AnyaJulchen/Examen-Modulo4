@@ -21,12 +21,11 @@
         android:layout_marginStart="62dp"
         android:layout_marginTop="224dp"
         android:layout_marginEnd="62dp"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/bienvenidos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pngfind_com_octopus_cartoon_png_4609647"
-        tools:ignore="ContentDescription,HardcodedText" />
+        app:srcCompat="@drawable/pngfind_com_octopus_cartoon_png_4609647" />
 
     <TextView
         android:id="@+id/text_home"
