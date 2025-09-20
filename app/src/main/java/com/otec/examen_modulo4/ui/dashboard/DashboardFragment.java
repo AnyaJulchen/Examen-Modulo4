@@ -20,11 +20,6 @@ public class DashboardFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        // If using ViewBinding:
-        // binding = FragmentDashboardBinding.inflate(inflater, container, false);
-        // return binding.getRoot();
-
-        // If not using ViewBinding (inflating fragment_dashboard.xml):
         return inflater.inflate(R.layout.fragment_dashboard, container, false);
     }
 
@@ -54,11 +49,3 @@ public class DashboardFragment extends Fragment {
             }
         });
     }
-
-    // If using ViewBinding, uncomment this:
-    // @Override
-    // public void onDestroyView() {
-    //     super.onDestroyView();
-    //     binding = null;
-    // }
-}
